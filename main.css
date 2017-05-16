@@ -1,0 +1,76 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.container {
+	max-width: 767px;
+}
+
+#first-load {
+	margin-top: 50px;
+}
+
+#second-load { 
+	display: none;
+	height: 340px;
+	background-color: #061c33;
+	border: solid white 3px;
+	margin: 25px auto;
+	padding: 0;
+	float: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.icon-download {
+	padding: 12px 12px 0px 12px;
+}
+
+#second-load h3 {
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.3em;
+}
+
+#second-load hr {
+	width: 80%;
+        margin-top: 1px;
+        margin-bottom: 1px;
+}
+
+#second-load h4 {
+	font-size: 17px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.3em;
+}
+
+.icon-phone {
+	display: block;
+	margin: 15px auto;
+}
+
+.button {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #bebec0;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+.btn-ok {
+	width: 60%;
+	margin-top: 9px;
+	border: 1px solid #707070;
+	color: black;
+	font-weight: bolder;
+}

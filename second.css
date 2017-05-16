@@ -1,0 +1,95 @@
+#main {
+	max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid white;*/
+	
+}
+body{ background-color: #000000;
+}
+#main #text {
+	color: #ffffff;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+	
+}
+
+.galeri {
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:100%;
+	margin-top: 0%;
+	height: 400px;
+	width: 350px;
+	max-width: 100%;
+	/*border: 1px solid white;*/
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.galeri img{
+	max-width: 100%;	
+}
+
+.blur {
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:100%;
+	margin-top: 0%;
+	height: 400px;
+	width: 350px;
+	max-width: 100%;
+	/*border: 1px solid white;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blur img{
+	max-width: 100%;
+	
+}
+
+.player img{
+	max-width: 100%;
+	margin-top: 2%;
+}
+
+#spinner {
+	position: relative;
+	top: 170px;
+	/*margin: -100px 0 0 -100px;*/
+	height: 50px;
+	width: 50px;
+	text-indent: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-mask-image: url("../image/load.png");
+	background-color: #fff;
+	-webkit-animation-name: spinnerRotate;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spinnerRotate {
+	from {
+		-webkit-transform:rotate(0deg);
+	}
+	to {
+		-webkit-transform:rotate(360deg);
+	}
+}
+
+#notif {
+	display: none;	
+}
+
+.notif {
+	max-width: 100%;
+	margin-top: 43%;
+}

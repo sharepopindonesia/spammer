@@ -1,0 +1,188 @@
+body {
+    background: #d3d6db;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.header {
+    background: #3b5998;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    color: #1f2430;
+    margin-bottom: 3px;
+    padding: 2px 2px 2px 2px;
+    background: #fff;
+    font-size: small;
+    border-radius: 3px;
+}
+
+.item .track {
+    font-weight: bold;
+    font-size: small;
+}
+
+.item .lightblue2 {
+    color: #000;
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.track a {
+    color: #3b5998;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.item .img {
+    float: left;
+    border: 0px solid #666;
+    padding: 1px;
+}
+
+.contestwrap {
+    margin-bottom: 5px;
+}
+
+.toptext {
+    background: #fff;
+    min-height: 40px;
+    color: #1e2330;
+    font-size: 11px;
+    padding: 10px 10px 5px 10px;
+    border-radius: 3px;
+}
+
+.secondary {
+    color: #1f2430;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.secondary span.lightblue {
+    color: #1f2430;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.container {
+    padding: 8px;
+}
+
+.button {
+    width: 170px;
+    display: block;
+    outline: 0 none;
+    padding: 0 8px;
+    margin-top: 8px;
+    text-align: center;
+    background-color: #3b5998;
+    background-image: -moz-linear-gradient(center top, #0c98c5, #0c98c5);
+    border: 0px solid #4ec8ef;
+    text-shadow: 0 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1px 1px 1px 1px;
+    cursor: default;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+}
+
+.button a {
+    color: #000;
+    text-decoration: none;
+    font-size: small;
+    cursor: hand;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.rating {
+    font-size: 12px;
+}
+
+.button1 {
+    width: 170px;
+    display: block;
+    outline: 0 none;
+    padding: 0 8px;
+    margin-top: 8px;
+    text-align: center;
+    background-color: #9f9f9f;
+    border: 0px solid #666;
+    color: #fff;
+    border-radius: 1px 1px 1px 1px;
+    cursor: default;
+    font-size: 20px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+}
+
+.button1 a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: small;
+    cursor: hand;
+}
+
+a.button1 {
+    text-decoration: none;
+}
+
+.red {
+    color: #fff;
+    font-weight: bold;
+    text-decoration:
+}
+
+.green {
+    color: #3C6;
+    font-weight: bold;
+}
+
+.select {
+    background: #fff;
+    margin: 3px 0 5px;
+    color: #1f2430;
+    font-size: small;
+    line-height: 18px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.yellow {
+    color: #3b5998;
+}
+
+.left {
+    float: left;
+    width: 100px;
+    margin-right: 5px;
+    text-align: center;
+    min-height: 60px;
+}
+
+.right {
+    float: left;
+    width: 65%
+}
+
+.comments {
+    background: #fff;
+    border-radius: 3px;
+    margin: 3px 0px 3px 0px;
+    padding: 5px;
+}
